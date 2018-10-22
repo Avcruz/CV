@@ -1,0 +1,82 @@
+.nav{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 3px;
+  width: 26%;
+  margin-left: 37%;
+  margin-right: 37%;
+  border-bottom: 1px solid black;
+}
+.grid{
+  text-align: center;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: serif;
+}
+.Seccion1{
+display: flex;
+flex-wrap: wrap;
+margin-top: 50px;
+}
+.Informacion{
+  background-color: #FFDACE;
+  width: 50%;
+}
+@media only screen and (max-width: 800px) {
+  .Informacion{
+    width: 100%;
+  }
+}
+img{
+  padding-top: 20PX;
+  padding-bottom: 15px;
+  padding-left: 25%;
+  padding-right: 25%;
+  width: 50%;
+}
+h2{
+  text-align: left;
+  font-family: fantasy;
+  padding-left: 2.5%;
+  padding-top: 20%;
+}
+p{
+  text-align: justify;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+.estudios{
+  text-align: center;
+  text-shadow: 1.5px;
+}
+.educacion{
+  border: 1px solid #FFDACE;
+  background-color: #FFDACE;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+th{
+  background-color: #CA9C95;
+}
+.form{
+  text-align: left;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.footer{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 3px;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #874741;
+}
